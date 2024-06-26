@@ -21,4 +21,4 @@ jobs:
         pip install requests PyGithub beautifulsoup4
     - name: 运行更新脚本
       run: |
-        python update_dedecms.py
+        python scripts/update_dedecms.py
