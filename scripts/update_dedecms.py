@@ -5,7 +5,7 @@ from github import Github
 from bs4 import BeautifulSoup
 
 # 配置信息
-GITHUB_TOKEN = os.environ['my_api_token']
+GITHUB_TOKEN = os.environ['HOMEBREW_GITHUB_API_TOKEN']
 REPO_NAME = 'DedeCMS'
 OWNER = 'PrinceFPF'
 
