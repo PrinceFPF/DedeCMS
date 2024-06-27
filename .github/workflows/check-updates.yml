@@ -9,7 +9,7 @@ jobs:
   check-update:
     runs-on: ubuntu-latest
     env:
-      YOUR_SECRET: ${{ secrets.MY_API_TOKEN }}
+      MY_API_TOKEN: ${{ secrets.MY_API_TOKEN }}
     steps:
     - name: 设置Python环境
       uses: actions/setup-python@v2
